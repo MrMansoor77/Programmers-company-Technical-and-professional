@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mohammad Reza Mansoor Web Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/mdb.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+
+<div class="header" id="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-2 col-md-3 align-self-center">
+                <div class="logo ">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-7 col-md-9 align-self-center ">
+                <form class="input-group md-form form-sm form-1 pl-0 mr-auto mb-4">
+                    <input class="form-control mr-sm-2" type="text"
+                           placeholder="نام کالا، برند و یا دسته مورد نظر خود را جستجو کنید…" aria-label="Search">
+                    <button class="searchbtn btn blue-gradient btn-rounded waves-effect waves-light" type="submit">
+                        جستجو
+                    </button>
+                </form>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 col-md-6 align-self-center">
+                <button type="button" class="btn btn-outline-primary btn-rounded waves-effect" data-toggle="modal"
+                        data-target="#loginregistermodal">ورود / خروج
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-rounded waves-effect" data-toggle="modal"
+                        data-target="#modalCart"><span
+                        class="far fa-cart-plus"></span>سبد خرید<i class="carticon">5</i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu blue-gradient z-depth-5">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html"><span class="far fa-home"></span>صفحه اصلی<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="products.html"><span class="far fa-shopping-cart"></span>محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><span class="far fa-users"></span>معرفی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="far fa-user"></span>درباره ما</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="contact.html"><span class="far fa-phone"></span>تماس با ما</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-telegram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="main">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-lg-3 col-md-3 align-self-center">
+            <div class="card testimonial-card text-center">
+                <div class="card-up indigo lighten-1"></div>
+
+                <img class="card-img-bottom" src="images/contactus.jpg">
+                <div class="card-body">
+                    <p class="aboutustext">راه های ارتباطی با شرکت</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-3 col-md-3 align-self-center">
+            <div class="card testimonial-card text-center">
+                <div class="card-up indigo lighten-1"></div>
+                <div class="avatar mx-auto white">
+                    <span class="rounded-circle tellicon far fa-phone fa-5x"></span>
+                </div>
+
+                <div class="card-body text-center">
+                    <h3 class="card-title">شماره تماس: <br>021-2211334455</h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-3 col-md-3 align-self-center">
+            <div class="card testimonial-card text-center">
+                <div class="card-up indigo lighten-1"></div>
+                <div class="avatar mx-auto white">
+                    <span class="rounded-circle tellicon far fa-mail-bulk fa-5x"></span>
+                </div>
+
+                <div class="card-body text-center">
+                    <h3 class="card-title">آدرس ایمیل: <br> info@site.com</h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-3 col-md-3 align-self-center">
+            <div class="card testimonial-card text-center">
+                <div class="card-up indigo lighten-1"></div>
+                <div class="avatar mx-auto white">
+                    <span class="rounded-circle tellicon far fa-location fa-5x"></span>
+                </div>
+
+                <div class="card-body text-center">
+                    <h3 class="card-title">آدرس:<br> تهران، بلوار اول، خیابان دوم، ساختمان سوم پلاک 4</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 col-md-6 align-self-center">
+            <section class="mb-4">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">فرم تماس با ما</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">نام خود را وارد کنید</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">آدرس ایمیل</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">موضوع</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                                  class="form-control md-textarea"></textarea>
+                                        <label for="message">پیغام خود را وارد کنید...</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="text-center text-md-right">
+                            <a class="text-white btn blue-gradient btn-rounded waves-effect waves-light">ارسال پیام</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 col-md-6 align-self-center">
+            <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="450" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<div class="modalloginbox">
+    <div class="modal fade" id="loginregistermodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content form-elegant">
+                <div class="modal-header text-center">
+                    <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="loginformmodallabel"><strong>ورود
+                        / ثبت نام</strong></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-4">
+                    <div class="md-form mb-5">
+                        <input type="email" id="Form-email1" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="Form-email1">آدرس ایمیل:</label>
+                    </div>
+                    <div class="md-form pb-3">
+                        <input type="password" id="Form-pass1" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="Form-pass1">رمز عبور</label>
+                        <p class="font-small d-flex justify-content-end">فراموشی <a href="#" class="blue-text ml-1">
+                            رمز عبور؟</a></p>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">ورود</button>
+                    </div>
+                    <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> ورود با
+                        شبکه های اجتماعی</p>
+                    <div class="row my-3 d-flex justify-content-center">
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i
+                                class="fab fa-facebook-f text-center"></i></button>
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i
+                                class="fab fa-twitter"></i></button>
+                        <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i
+                                class="fab fa-google-plus-g"></i></button>
+                    </div>
+                </div>
+                <div class="modal-footer mx-5 pt-3 mb-1">
+                    <p class="font-small grey-text d-flex justify-content-end">عضو نیستید؟ <a href="#"
+                                                                                              class="blue-text ml-1">
+                        ثبت نام کنید.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modalcarthead">
+    <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="modalCart"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">سبد خرید</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>ردیف</th>
+                            <th>نام محصول</th>
+                            <th>قیمت</th>
+                            <th>حذف</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>محصول شماره 1</td>
+                            <td>10000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>محصول شماره 2</td>
+                            <td>20000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>محصول شماره 3</td>
+                            <td>30000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>محصول شماره 4</td>
+                            <td>40000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr class="total">
+                            <th scope="row">5</th>
+                            <td>مجموع</td>
+                            <td>100000 تومان</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal">بستن</button>
+                    <button class="btn btn-primary">ثبت سفارش</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a id="backtotopbtn"><i class="fas fa-arrow-up"></i></a>
+<div id="footer" class="footer col-12 text-center blue-gradient z-depth-5 text-white">
+    <p>تمامی حقوق برای این شرکت و صاحب اثر محمدرضا منصور محفوظ بوده و هرگونه کپی برداری پیگرد قانونی دارد.</p>
+</div>
+</body>
+</html>

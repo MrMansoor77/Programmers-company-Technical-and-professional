@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mohammad Reza Mansoor Web Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/mdb.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+
+<div class="header" id="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-2 col-md-3 align-self-center">
+                <div class="logo ">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-7 col-md-9 align-self-center ">
+                <form class="input-group md-form form-sm form-1 pl-0 mr-auto mb-4">
+                    <input class="form-control mr-sm-2" type="text"
+                           placeholder="نام کالا، برند و یا دسته مورد نظر خود را جستجو کنید…" aria-label="Search">
+                    <button class="searchbtn btn blue-gradient btn-rounded waves-effect waves-light" type="submit">
+                        جستجو
+                    </button>
+                </form>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 col-md-6 align-self-center">
+                <button type="button" class="btn btn-outline-primary btn-rounded waves-effect" data-toggle="modal"
+                        data-target="#loginregistermodal">ورود / خروج
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-rounded waves-effect" data-toggle="modal"
+                        data-target="#modalCart"><span
+                        class="far fa-cart-plus"></span>سبد خرید<i class="carticon">5</i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu blue-gradient z-depth-5">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html"><span class="far fa-home"></span>صفحه اصلی<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="products.html"><span class="far fa-shopping-cart"></span>محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><span class="far fa-users"></span>معرفی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="far fa-user"></span>درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><span class="far fa-phone"></span>تماس با ما</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fab fa-telegram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="main">
+    <div class="row">
+        <div class="col-md-3 col-12 sticky-content">
+            <div class="prodsidebar">
+                <h3>دسته بندی محصولات</h3>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        کامپیوتر
+                        <span class="badge badge-primary badge-pill">7</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        موبایل
+                        <span class="badge badge-primary badge-pill">5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        واقعیت مجازی
+                        <span class="badge badge-primary badge-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        ساعت هوشمند
+                        <span class="badge badge-primary badge-pill">12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        هارد و فلش
+                        <span class="badge badge-primary badge-pill">8</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        رم کامپیوتر
+                        <span class="badge badge-primary badge-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        گرافیک
+                        <span class="badge badge-primary badge-pill">1</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="prodsidebar">
+                <h3> برندها</h3>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Apple
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Samsung
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Asus
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Huawei
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Nokia
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        MSI
+                    </li>
+                </ul>
+            </div>
+            <div class="prodsidebar">
+                <h3> جستجو محصولات</h3>
+                <form class="form-inline md-form form-sm pr-4 mt-2">
+                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="نام برند و ..."
+                           aria-label="Search">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </form>
+            </div>
+        </div>
+
+        <div class="prodcontent col-md-9 col-12 p-4 align-self-center">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        27000 <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center">
+                                    <span>لپ تاپ 15 اینچی ایسر مدل Aspire A715-71G-7158</span></h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۳,۵۶۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>لپ تاپ 15 اینچی لنوو مدل Ideapad 330 - E</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۳,۱۹۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>لپ تاپ 11 اینچی ایسوس مدل E203NA - A</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product4.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۶۶,۴۹۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>لپ تاپ 17 اینچی اچ پی مدل ZBook 17 G5 Mobile Works...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product5.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۶,۹۵۵,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>لپ تاپ 15 اینچی لنوو مدل Ideapad 330 - J</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product6.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۱۵,۹۰۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center">
+                                    <span>لپ تاپ 15 اینچی ایسر مدل Nitro 5 AN515-51-79DL</span></h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product7.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۳,۵۰۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>کیبورد مکانیکی مخصوص بازی ریزر مدل BlackWidow Elit...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product8.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۱۳۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center">
+                                    <span>فلش مموری مدل heart6004 ظرفیت 32 گیگابایت</span></h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product9.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۹۶,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>پایه خنک کننده ونوس مدل PV-F1420</span></h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product10.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۴۹,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>فلش مموری سن دیسک مدل Cruzer Blade CZ50 ظرفیت 32 گ...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product11.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۸۳۹,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابای...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product12.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۳۲۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>کوله پشتی لپ تاپ آس اسپشیال مدل T14</span></h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product13.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۲۹,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>محافظ کیبورد با حروف فارسی مدل Crystal Guard مناسب...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product14.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۲۸,۹۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center">
+                                    <span>کابل افزایش طول USB 3.0 مدل AB  به طول 1.5 متر</span></h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product15.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۴,۴۹۹,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>گوشی موبایل سامسونگ مدل Galaxy A7 2018 دو سیم‌کارت</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product16.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۱۱,۴۵۹,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>گوشی موبایل سامسونگ مدل Galaxy Note 9 دو سیم‌کارت ...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product17.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۵,۰۵۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>تبدیل OTG ریمکس مدل RA-OTG</span></h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product18.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۵۸,۸۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>کارت حافظه microSDHC سامسونگ مدل Evo Plus کلاس 10 ...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product19.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۱۶۶,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>شارژر همراه شیاومی مدل PLM09ZM ظرفیت 10000 میلی آم...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product20.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۹۹,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>کاور مدل SHR31 مناسب برای گوشی موبایل سامسونگ Gala...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="images/product21.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="price col-6">
+                                        ۲۳,۵۰۰,۰۰۰ <span>تومان</span>
+                                    </div>
+                                    <div class="rating col-6">
+                                        <ul class="list-unstyled list-inline rating mb-0">
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"> </i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item mr-0"><i class="fas fa-star amber-text"></i>
+                                            </li>
+                                            <li class="list-inline-item"><i class="fas fa-star-half-alt amber-text"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-center"><span>گوشی موبایل اپل مدل iPhone XS Max LLA تک سیم‌ کارت...</span>
+                                </h4>
+                                <div class="text-center">
+                                    <a href="#"
+                                       class="white-text btn blue-gradient btn-rounded waves-effect waves-light"><span
+                                            class="far fa-cart-plus ml-1"></span>افزودن به سبد خرید</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <nav aria-label="Page navigation">
+                <ul class="pagination pagination-circle pg-blue">
+                    <li class="page-item disabled"><a class="page-link">ابتدا</a></li>
+                    <li class="page-item disabled">
+                        <a class="page-link" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item active "><a class="page-link blue-gradient">1</a></li>
+                    <li class="page-item"><a class="page-link">2</a></li>
+                    <li class="page-item"><a class="page-link">3</a></li>
+                    <li class="page-item"><a class="page-link">4</a></li>
+                    <li class="page-item"><a class="page-link">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">بعدی</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link">انتها</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="modalloginbox">
+    <div class="modal fade" id="loginregistermodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content form-elegant">
+                <div class="modal-header text-center">
+                    <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="loginformmodallabel"><strong>ورود
+                        / ثبت نام</strong></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-4">
+                    <div class="md-form mb-5">
+                        <input type="email" id="Form-email1" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="Form-email1">آدرس ایمیل:</label>
+                    </div>
+                    <div class="md-form pb-3">
+                        <input type="password" id="Form-pass1" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="Form-pass1">رمز عبور</label>
+                        <p class="font-small d-flex justify-content-end">فراموشی <a href="#" class="blue-text ml-1">
+                            رمز عبور؟</a></p>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">ورود</button>
+                    </div>
+                    <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> ورود با
+                        شبکه های اجتماعی</p>
+                    <div class="row my-3 d-flex justify-content-center">
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i
+                                class="fab fa-facebook-f text-center"></i></button>
+                        <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i
+                                class="fab fa-twitter"></i></button>
+                        <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i
+                                class="fab fa-google-plus-g"></i></button>
+                    </div>
+                </div>
+                <div class="modal-footer mx-5 pt-3 mb-1">
+                    <p class="font-small grey-text d-flex justify-content-end">عضو نیستید؟ <a href="#"
+                                                                                              class="blue-text ml-1">
+                        ثبت نام کنید.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modalcarthead">
+    <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="modalCart"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">سبد خرید</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>ردیف</th>
+                            <th>نام محصول</th>
+                            <th>قیمت</th>
+                            <th>حذف</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>محصول شماره 1</td>
+                            <td>10000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>محصول شماره 2</td>
+                            <td>20000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>محصول شماره 3</td>
+                            <td>30000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>محصول شماره 4</td>
+                            <td>40000 تومان</td>
+                            <td><a><i class="far fa-times"></i></a></td>
+                        </tr>
+                        <tr class="total">
+                            <th scope="row">5</th>
+                            <td>مجموع</td>
+                            <td>100000 تومان</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal">بستن</button>
+                    <button class="btn btn-primary">ثبت سفارش</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a id="backtotopbtn"><i class="fas fa-arrow-up"></i></a>
+<div id="footer" class="footer col-12 text-center blue-gradient z-depth-5 text-white">
+    <p>تمامی حقوق برای این شرکت و صاحب اثر محمدرضا منصور محفوظ بوده و هرگونه کپی برداری پیگرد قانونی دارد.</p>
+</div>
+</body>
+</html>
